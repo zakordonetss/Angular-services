@@ -1,0 +1,12 @@
+<div class="card">
+    <h2>Count: {{ CounterService.count }}</h2>
+    <br>
+    <button class="btn" (click)="CounterService.increase()">+</button>
+    <button class="btn" (click)="CounterService.decrease()">-</button>
+</div>
+<div class="card">
+    <h2>Count: {{ LocalCounterService.count }}</h2>
+    <br>
+    <button class="btn" (click)="LocalCounterService.increase()">+</button>
+    <button class="btn" (click)="LocalCounterService.decrease()">-</button>
+</div>
