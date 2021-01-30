@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
-import { CounterService } from './services/counter.service';
 
 @NgModule({
   declarations: [
@@ -13,7 +12,7 @@ import { CounterService } from './services/counter.service';
     BrowserModule,
     FormsModule,
   ],
-  providers: [ CounterService ],
+  providers: [],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }
